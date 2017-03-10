@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Norrpark</string>
+
+
+
+
+
+    <!--login activity-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_icon">NORRPARK</string>
+    <string name="login_button">LOGIN</string>
+
+
+    <!--selecting parking lot-->
+    <string name="navigationTitle">Selecting parking lot</string>
+    <string name="parkingLotNo">Parking lot no.</string>
+
+    <!--home screen-->
+    <string name="select_praking_lot">SelectParkingLot</string>
+    <string name="tickets">Tickets</string>
+    <string name="scan">Scan</string>
+</resources>

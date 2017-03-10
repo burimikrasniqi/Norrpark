@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/button_color"
+        android:gravity="center_vertical">
+
+        <com.norrpark.user.norrpark.customViews.FontTextView
+            android:id="@+id/username_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/navigationTitle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_title" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/logout"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="@dimen/toolbar_height"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_logout" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="17dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/select_parking_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/home_screen_item_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="45dp"
+            android:paddingStart="45dp">
+
+            <com.norrpark.user.norrpark.customViews.GlideImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo" />
+
+
+            <com.norrpark.user.norrpark.customViews.FontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/select_praking_lot"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ticets_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/home_screen_item_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="45dp"
+            android:paddingStart="45dp">
+
+            <com.norrpark.user.norrpark.customViews.GlideImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo" />
+
+
+            <com.norrpark.user.norrpark.customViews.FontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/tickets"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_title" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/scan_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/home_screen_item_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="45dp"
+            android:paddingStart="45dp">
+
+            <com.norrpark.user.norrpark.customViews.GlideImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo" />
+
+
+            <com.norrpark.user.norrpark.customViews.FontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/scan"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_title" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

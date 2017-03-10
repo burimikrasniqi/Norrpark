@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#515151</color>
+
+
+    <!--login activity-->
+    <color name="button_color">#42D4C6</color>
+    <color name="gray">#515151</color>
+
+    <color name="primary_45">#733F51B5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_15">#26FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_10">#1A000000</color>
+
+    <color name="blue">#1c75b7</color>
+
+    <color name="facebook_blue">#3C5A99</color>
+    <color name="facebook_blue_dark">#2A3E71</color>
+
+    <color name="transparent">#00000000</color>
+</resources>
